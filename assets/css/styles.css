@@ -1,0 +1,112 @@
+/* Selectors */
+html{
+    font-size: 62.5%;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Classes */
+.top-logo img{
+   width: 50%;
+   height: 50%;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.personal-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+}
+
+.aboutme-photo img{
+    width: 30%;
+    height: 30%;
+ }
+ 
+
+.applications-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 920px;
+
+    width: 66%;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 33%;
+}
+
+.first-applications-row-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 33%;
+}
+
+.second-applications-row-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 33%;
+}
+
+.second{
+    width: 50%;
+}
+
+.third{
+    width: 50%;
+}
+
+.fourth{
+    width: 50%;
+}
+
+.fifth{
+    width: 50%;
+}
+
+.top-menu li{
+    display: inline;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-menu li{
+    display: inline;
+    padding: 10px;
+    font-size: 2rem;
+}

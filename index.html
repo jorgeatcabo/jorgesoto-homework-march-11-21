@@ -1,137 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="shortcut icon" href="./assets/images/topcat.png" type="image/x-icon">
+<html>
+  <head>
     <title>Jorge Soto's Portfolio</title>
-</head>
-<body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+    <link rel="shortcut icon" href="./assets/images/topcat.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d2e14db683.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <!-- Main Header  -->
+  </head>
+  <body>
     <header>
-
-        <!-- Logo -->
-        <div class="top-logo">
-            <img src="./assets/images/topcat.png" alt="">
-        </div>
-
         <!-- Top Navigation Bar -->
+        <div class="top-logo">
+          <img src="./assets/images/foto.jpg" alt="">
+      </div>
         <nav>
-            <ul class="top-menu">
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">Resume</a></li>
-            </ul>
+            <a href="#about-me">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact-me">Contact Me</a>
+            <a href="#">Resume</a>
         </nav>
-
     </header>
 
-    <!-- Manin Content -->
     <main>
+      <aside class="aside"> 
+        <article>
+          <h2 id="about-me">About Jorge Soto</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam molestias ipsa rem possimus neque cumque ut ipsum similique vero, eligendi officia quod autem tenetur nihil ad sint quidem velit. Beatae.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam molestias ipsa rem possimus neque cumque ut ipsum similique vero, eligendi officia quod autem tenetur nihil ad sint quidem velit. Beatae.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam molestias ipsa rem possimus neque cumque ut ipsum similique vero, eligendi officia quod autem tenetur nihil ad sint quidem velit. Beatae.
+          </p>
+        </article>
+        <article>
+          <h2 id="contact-me">Contact Me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam molestias ipsa rem possimus neque cumque ut ipsum similique vero, eligendi officia quod autem tenetur nihil ad sint quidem velit. Beatae.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam molestias ipsa rem possimus neque cumque ut ipsum similique vero, eligendi officia quod autem tenetur nihil ad sint quidem velit. Beatae.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam molestias ipsa rem possimus neque cumque ut ipsum similique vero, eligendi officia quod autem tenetur nihil ad sint quidem velit. Beatae.
+            
+          </p>
+        </article>
+      </aside>
 
-        <!-- Main Section -->
-        <section class="main-section">
+      <section>
+        <h2 id="work">My Projects</h2>
+        <div class="main-project">
+          <figure><a href="https://jorgeatcabo.github.io/jorgesoto-homework-27feb21/" target="_blank"><img src="./assets/images/homework.jpg" alt="First Homework Project"></a>
+            <figcaption>First Homework</figcaption>
+        </figure>
+        </div>
+        
+        <div class="first-row">
+    
+          <div class="other-projects">
+              <figure><a href="http://yahoo.com" target="_blank"><img src="./assets/images/yahoo.png" alt="Yahoo Project"></a>
+                  <figcaption>Yahoo</figcaption>
+              </figure>
+          </div>
+        
+          <div class="other-projects">
+            <figure><a href="http://youtube.com" target="_blank"><img src="./assets/images/youtube.png" alt="Youtube Project"></a>
+              <figcaption>Youtube</figcaption>
+          </figure>
+          </div>
 
-            <!-- Personal Section -->
-            <section class="personal-section">
-                <!-- About Me Section -->
-                <article class="about-me">
-                    
-                    <h1>
-                        About Me
-                    </h1>
-
-                    <div class="aboutme-photo">
-                        <img src="./assets/images/topcat.png" alt="">
-                    </div>
-
-                </article>
-
-            <!-- Contact Me Section -->
-                <article class="contact-me">
-                    
-                    <h1>
-                        Contact Me
-                    </h1>
-
-                </article>
-
-            <!-- Personal Section End  -->
-            </section>
-
-            <!-- Applications Section -->
-            <section class="applications-section">
-
-                <!-- First Application -->
-                <article class="first">
-                    First
-                </article>
-                
-
-                <!-- First Applications Row Group  -->
-                <section class="first-applications-row-group">
-
-                    <!-- Second Application -->
-                    <article class="second">
-                        Second
-                    </article>
-
-                    <!-- Third Application -->
-                    <article class="third">
-                        Third
-                    </article>
-                
-                <!-- First Applications Row Group End -->
-                </section>
-
-                <!-- Second Applications Row Group  -->
-                <section class="second-applications-row-group">
-
-                    <!-- Fourth Application -->
-                    <article class="fourth">
-                        Fourth
-                    </article>
-
-                    <!-- Fifth Application -->
-                    <article class="fifth">
-                        Fifth
-                    </article>
-
-                <!-- Second Applications Row Group End -->
-                </section>
-
-            <!-- Applications Section End -->
-            </section>
-
-        <!-- Main Section End -->
-        </section>
-
+          <div class="other-projects">
+            <figure><a href="http://facebook.com" target="_blank"><img src="./assets/images/facebook.png" alt="Facebook Project"></a>
+              <figcaption>Facebook</figcaption>
+          </figure>
+          </div>
+      
+          <div class="other-projects">
+            <figure><a href="http://hotmail.com" target="_blank"><img src="./assets/images/hotmail.png" alt="Hotmail Project"></a>
+              <figcaption>Hotmail</figcaption>
+          </figure>
+          </div>
+        </div>
+        
+      </section>
+      
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div>
-            <p>Copy Right 2021</p>
-        </div>
-        Footer
-        <!-- Bottom Footer -->
-        <nav>
-
-            <ul class="bottom-menu">
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact Me</li>
-                <li>Resume</li>
-            </ul>
-
-        </nav>
-
+    <footer>
+       <!-- Bottom Navigation Bar -->
+       <div>
+          <p>Copy Right 2021</p>
+       </div>
+      <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact-me">Contact Me</a>
+        <a href="#">Resume</a>
+      </nav>
     </footer>
-
-</body>
+  </body>
 </html>

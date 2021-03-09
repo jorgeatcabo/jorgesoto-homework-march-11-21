@@ -1,112 +1,100 @@
 /* Selectors */
-html{
-    font-size: 62.5%;
+* {
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
 
 header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 40px;
 }
 
-h1{
-    font-size: 3rem;
+nav a {
+  color: #132a92;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-a{
-    text-decoration: none;
+
+aside {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 20px;
 }
+
+section {
+  flex: 3;
+  background-color: #fff;
+  text-align: center;
+}
+
+figure>a>img{
+  width: 30%;
+  height: 30%;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 40px;
+}
+
 
 /* Classes */
+
+.top-logo{
+   text-align: center;
+  }
+
 .top-logo img{
-   width: 50%;
-   height: 50%;
+  width: 10%;
+  height: 10%;
 }
 
-.main-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.first-row{
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.main-project {
+  background-color: #fff;
+  width: 100%;
+}
 
+.other-projects {
+  background-color: #fff;
+  width: 50%;
+}
 
-.personal-section{
-    display: flex;
+.aside {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
     flex-direction: column;
-    justify-content: space-between;
-    width: 33%;
-}
+  }
 
-.aboutme-photo img{
-    width: 30%;
-    height: 30%;
- }
- 
-
-.applications-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 920px;
-
-    width: 66%;
-}
-
-.first{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 33%;
-}
-
-.first-applications-row-group{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 33%;
-}
-
-.second-applications-row-group{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 33%;
-}
-
-.second{
-    width: 50%;
-}
-
-.third{
-    width: 50%;
-}
-
-.fourth{
-    width: 50%;
-}
-
-.fifth{
-    width: 50%;
-}
-
-.top-menu li{
-    display: inline;
-    padding: 10px;
-    font-size: 2rem;
-}
-
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.bottom-menu li{
-    display: inline;
-    padding: 10px;
-    font-size: 2rem;
+  aside {
+    order: 2;
+  }
 }

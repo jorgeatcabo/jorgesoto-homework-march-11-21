@@ -67,7 +67,7 @@ footer{
   height: 10%;
 }
 
-.first-row{
+.other-projects-rows{
   display: flex;
   flex-wrap: wrap;
 }

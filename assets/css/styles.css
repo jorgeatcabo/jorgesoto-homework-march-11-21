@@ -1,4 +1,4 @@
-/* Selectors */
+/*/////////////////// Selectors ///////////////////*/
 * {
   box-sizing: border-box;
 }
@@ -55,8 +55,10 @@ footer{
   padding: 40px;
 }
 
-
-/* Classes */
+pre{
+  white-space: normal;
+}
+/*/////////////////// Classes ///////////////////*/
 
 .top-logo{
    text-align: center;

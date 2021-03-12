@@ -18,11 +18,25 @@ header{
 }
 
 nav a {
-  color: #132a92;
+  color:  aliceblue;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
 }
+
+nav{
+  flex-shrink: 0;
+  padding: 20px;
+  text-align: center;
+  background: #397bb8;
+  color: #fff;
+  border-radius: 20px 10px;
+}
+
+nav:hover{
+  border-radius: 10px 20px;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -31,8 +45,15 @@ main {
 
 aside {
   flex: 1;
-  background-color: #b9c6ae;
+  /* background-color: #b9c6ae; */
+  background:#397bb8;
+  color:  aliceblue;;
   padding: 20px;
+  border-radius: 40px 0px;
+}
+
+aside:hover{
+  border-radius: 0px 40px;
 }
 
 section {
@@ -47,16 +68,32 @@ figure>a>img{
 }
 
 footer{
-  display: flex;
+  flex-shrink: 0;
+  padding: 20px;
+  text-align: center;
+  background:#397bb8;
+  color: #fff;
+  border-radius: 0px 40px;
+
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: aliceblue;
-  padding: 40px;
+  padding: 40px; */
+}
+
+footer:hover{
+  border-radius: 40px 0px;
 }
 
 pre{
   white-space: normal;
+}
+
+
+a:active ~ #about{
+  color: red;
 }
 /*/////////////////// Classes ///////////////////*/
 
@@ -85,10 +122,84 @@ pre{
 }
 
 .aside {
-  background-color: #fff;
   width: 100%;
   height: 100vh;
 }
+
+
+
+/*/////////////////// Toggle ///////////////////*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(21, 6, 85);
+  /* background-color: #ccc; */
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #397bb8;
+  /* background-color: #2196F3; */
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #397bb8;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+input[type=checkbox] ~ footer {
+  background-color: #ccc;
+  font-style: italic;
+} 
+input[type=checkbox]:checked ~ footer {
+  background-color: #f00;
+  font-style: normal;
+} 
+
 
 @media screen and (max-width: 768px) {
   main,

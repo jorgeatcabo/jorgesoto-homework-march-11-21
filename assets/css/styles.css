@@ -28,17 +28,17 @@ header:hover{
 /* Top And Bottom Menu Navigation Styles And Behavoir*/
 nav{
   flex-shrink: 0;
-  padding: 5% 0;
+  padding: 15px 0;
   text-align: center;
   background: #397bb8;
   border-radius: 20px 10px;
-  height: 100px;
+  height: 50px;
 }
 
 nav a {
   color: aliceblue;
-  padding: 10% 0;
-  margin:0 20px;
+  padding: 15px 0;
+  margin:20px 20px;
   text-decoration: none;
 }
   
@@ -203,6 +203,18 @@ input:checked + .slider:before {
   main,
   nav {
     flex-direction: column;
+  }
+
+  nav{
+    display:flex;
+    justify-content: space-around;
+    padding: 5% 0;
+    height: 250px;
+  }
+
+  nav a{
+    padding: 0 0;
+    margin: 10px;
   }
 
   aside {

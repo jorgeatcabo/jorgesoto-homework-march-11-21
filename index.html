@@ -16,29 +16,33 @@
   <body>
     <header id="header">
         <!-- Top Navigation Bar -->
-        <div class="top-logo">
-          <img src="./assets/images/foto.jpg" alt="">
-        </div>
-        <nav id="topnav">
+        <nav id="top-nav">
             <a href="#about-me" id="about">About Me</a>
             <a href="#work">Work</a>
             <a href="#contact-me">Contact Me</a>
             <a href="#">Resume</a>
         </nav>
-        <h3>Change Website Appearence Color</h3> 
+
+        <h3 id="switch-heading">Change Website Appearence Color</h3> 
+
         <label class="switch">
           <input name="checkbox" type="checkbox" checked>
           <span class="slider round"></span> 
         </label>    
+
     </header>
 
     <main>
-
       <!-- Sidebar -->
-      <aside id="sidebar" class="aside"> 
-
+      <aside id="side-bar" class="aside"> 
         <article>
-          <h2 id="about">About Jorge Soto</h2>
+
+          <h2 id="about-me">About Jorge Soto</h2>
+
+          <div class="photo">
+            <img src="./assets/images/foto.jpg" alt="">
+          </div>
+
           <details>
             <summary>Click to know about me...</summary>
             <p> 
@@ -48,11 +52,14 @@
               Please do not hesitate to reach me, I am already imaging, enjoying and developing that project that you have in mind.
               Below are the ways you can do it.
             </p>
-          </details>          
+          </details>  
+
         </article>
 
         <article>
+
           <h2 id="contact-me">Contact Me</h2>
+
           <details>
             <summary>Click to get in touch...</summary>
             <p> 
@@ -69,10 +76,12 @@
       </aside>
 
       <!-- Projects Section -->
-      <section> 
-        <h2 id="work">My Projects</h2>
+      <section id="work"> 
+
+        <h2>My Projects</h2>
 
         <div class="main-project">
+
           <figure><a href="https://jorgeatcabo.github.io/jorgesoto-homework-27feb21/" target="_blank"><img src="./assets/images/homework.jpg" alt="First Homework Project"></a>
             <figcaption>First Homework</figcaption>
           </figure>
@@ -87,21 +96,27 @@
           </div>
         
           <div class="other-projects">
+
             <figure><a href="http://youtube.com" target="_blank"><img src="./assets/images/youtube.png" alt="Youtube Project"></a>
               <figcaption>Youtube</figcaption>
           </figure>
+
           </div>
 
           <div class="other-projects">
+
             <figure><a href="http://facebook.com" target="_blank"><img src="./assets/images/facebook.png" alt="Facebook Project"></a>
               <figcaption>Facebook</figcaption>
           </figure>
+
           </div>
       
           <div class="other-projects">
+
             <figure><a href="http://hotmail.com" target="_blank"><img src="./assets/images/hotmail.png" alt="Hotmail Project"></a>
               <figcaption>Hotmail</figcaption>
           </figure>
+
           </div>
 
         </div>
@@ -118,7 +133,7 @@
             <p>Copy Right 2021</p>
          </div>
 
-         <nav id="bottomnav">
+         <nav id="bottom-nav">
             <a href="#about-me">About Me</a>
             <a href="#work">Work</a>
             <a href="#contact-me">Contact Me</a>

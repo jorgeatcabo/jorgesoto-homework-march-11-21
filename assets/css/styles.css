@@ -39,7 +39,7 @@ nav:hover{
   border-radius: 10px 20px;
 }
 
-/* Switch Toggle Heading Styles*/
+/* Switch Toggle Heading Styles */
 #switch-heading{
   margin: 0 auto;
   text-align: center;
@@ -107,7 +107,7 @@ input:checked + .slider:before {
 
 /*/////////////////// Classes ///////////////////*/
 
-/* Top  */
+/* About Me Photo Styles */
 .photo{
    text-align: center;
   }
@@ -118,6 +118,7 @@ input:checked + .slider:before {
   height: 50%;
 }
 
+/* Switch Toggle Styles And Behavior */
 .switch {
   position: relative;
   display: inline-block;
@@ -169,6 +170,7 @@ input:checked + .slider:before {
   flex-wrap: wrap;
 }
 
+/* Projects Sections Styles */
 .main-project {
   background-color: #fff;
   width: 100%;
@@ -180,12 +182,12 @@ input:checked + .slider:before {
 }
 
 .aside {
-  overflow-y: scroll;
+  overflow-y:auto;
   width: 100%;
   height: 100vh;
 }
 
-
+/* Responsive Settings For Mobile Devices */
 @media screen and (max-width: 768px) {
   main,
   nav {

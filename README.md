@@ -9,12 +9,12 @@ This one is composed of:
 * Navigation Header
 * Sidebar Section
 * About Me Section
-* Contact Section
+* Contact Me Section
 * Projects Section
 * Footer Section
 
 # Website Project Image
-
+![](./assets/images/app.png)
 
 # Website Link
 [Jorge Soto Portfolio](https://jorgeatcabo.github.io/jorgesoto-homework-march-16-21/)

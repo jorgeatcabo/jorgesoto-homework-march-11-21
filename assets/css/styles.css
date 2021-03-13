@@ -71,7 +71,8 @@ aside:hover{
   border-radius: 0px 40px;
 }
 
-section {
+/* Projects Section Styles */
+#work {
   flex: 3;
   background-color: #fff;
   text-align: center;

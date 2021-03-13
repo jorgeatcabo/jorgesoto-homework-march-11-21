@@ -1,4 +1,5 @@
 /*/////////////////// Selectors ///////////////////*/
+/* Applying Universal Styles */
 * {
   box-sizing: border-box;
 }
@@ -7,7 +8,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  font-size: 1.5rem;
 }
 
 /* Main Header Section Styles*/
@@ -25,22 +25,23 @@ header:hover{
   border-radius: 40px 0px;
 }
 
-/* Top And Bottom Menu Navigation Styles */
+/* Top And Bottom Menu Navigation Styles And Behavoir*/
 nav{
   flex-shrink: 0;
-  padding: 20px;
+  padding: 5% 0;
   text-align: center;
   background: #397bb8;
   border-radius: 20px 10px;
+  height: 100px;
 }
 
 nav a {
-  color:  aliceblue;
-  padding: 14px 20px;
+  color: aliceblue;
+  padding: 10% 0;
+  margin:0 20px;
   text-decoration: none;
-  text-align: center;
 }
-
+  
 nav:hover{
   border-radius: 10px 20px;
 }
@@ -195,6 +196,9 @@ input:checked + .slider:before {
 
 /* Responsive Settings For Mobile Devices */
 @media screen and (max-width: 768px) {
+  body{
+  font-size: 1.5rem;
+  }
   main,
   nav {
     flex-direction: column;

@@ -7,6 +7,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  font-size: 1.5rem;
 }
 
 /* Main Header Section Styles*/
@@ -15,8 +16,13 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
+  background-color: #4dd1e9;
   padding: 40px;
+  border-radius: 0px 40px;
+}
+
+header:hover{
+  border-radius: 40px 0px;
 }
 
 /* Top And Bottom Menu Navigation Styles */
@@ -81,7 +87,7 @@ footer{
   flex-shrink: 0;
   padding: 20px;
   text-align: center;
-  background:#397bb8;
+  background:#4dd1e9;
   color: #fff;
   border-radius: 0px 40px;
 }
